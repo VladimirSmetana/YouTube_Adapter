@@ -10,15 +10,15 @@ del /f /q "%temp%\GetAdmin.vbs" >nul 2>&1
 exit
 )
 
-start E:\GoodByeDPI\RMSVC.cmd 
+start G:\YouTube_Adapter\RMSVC.cmd 
 timeout 5
 
 
-start E:\GoodByeDPI\BLUpd.cmd 
+start G:\YouTube_Adapter\BLUpd.cmd 
 timeout 60
 
 
-start E:\GoodByeDPI\YouTube.cmd
+start G:\YouTube_Adapter\YouTube.cmd
 timeout 5
 
 taskkill /im cmd.exe /f
